@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: dodgerblue;
+}
+
+#app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding:24px;
+    gap: 24px
+}
+
+.note {
+    height: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: none;
+    border-radius: 12px;
+    resize: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    transition: font-size 0.2s;
+    transition: box-shadow 0.2s;
+}
+
+.note:hover {
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+.note:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+
+.add__note{
+    height: 200px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+    transition: background 0.2s;
+}
+
+.add__note:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
