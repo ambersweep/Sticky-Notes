@@ -1,25 +1,27 @@
 body {
     margin: 0;
-    background-color: dodgerblue;
+    background-color: royalblue;
 }
 
 #app {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 200px);
-    padding:24px;
-    gap: 24px
+    grid-template-columns: repeat(auto-fill, 250px);
+    padding:30px;
+    gap: 30px
 }
 
 .note {
-    height: 200px;
+    height: 250px;
     box-sizing: border-box;
+    background-color: cornsilk;
+    color: darkslategray;
     padding: 16px;
     border: none;
     border-radius: 12px;
     resize: none;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 22px;
     transition: font-size 0.2s;
     transition: box-shadow 0.2s;
 }
@@ -35,7 +37,7 @@ body {
 }
 
 .add__note{
-    height: 200px;
+    height: 250px;
     border-radius: 12px;
     background-color: rgba(0, 0, 0, 0.1);
     opacity: 50%;
